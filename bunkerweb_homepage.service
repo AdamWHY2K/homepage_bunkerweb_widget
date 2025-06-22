@@ -1,0 +1,8 @@
+[Unit]
+Description=Log BunkerWeb stats to JSON file
+
+[Service]
+User=root
+Type=oneshot
+WorkingDirectory=ABSOLUTE PATH TO stats_json.sh DIRECTORY
+ExecStart=ABSOLUTE PATH TO stats_json.sh
